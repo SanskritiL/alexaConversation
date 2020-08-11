@@ -1,0 +1,76 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "understand me",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "goldman sachs"
+              }
+            },
+            {
+              "name": {
+                "value": "pwc"
+              }
+            },
+            {
+              "name": {
+                "value": "KPMG"
+              }
+            },
+            {
+              "name": {
+                "value": "deloitte"
+              }
+            }
+          ],
+          "name": "companyName"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "statistics"
+              }
+            }
+          ],
+          "name": "metrics"
+        }
+      ]
+    }
+  },
+  "version": "7"
+}

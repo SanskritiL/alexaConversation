@@ -1,0 +1,12 @@
+{
+    
+    "deloitte": {
+        "statistics": 50,
+        "sponsorship": true
+    },
+    "pwc": {
+        "statistics": 40,
+        "sponsorship": false
+    }
+    
+}
